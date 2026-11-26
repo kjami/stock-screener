@@ -8,7 +8,33 @@ import { z } from "zod";
 import type { FundamentalsRow } from "../data/sources.ts";
 import { computeExposure } from "../rules/exposure.ts";
 import { betaGap, isMismatched } from "../rules/profile.ts";
-import { InvestorInput, Profile } from "../schemas/index.ts";
+import { InvestorInput, Profile, SentimentLabel } from "../schemas/index.ts";
+
+/** Hand labels for the sentiment accuracy metric (data/testset/headline-labels.json). */
+export const HeadlineLabels = z.object({
+  newsSnapshot: z.string(),
+  instructions: z.string(),
+  items: z
+    .array(
+      z.object({
+        newsId: z.string(),
+        ticker: z.string(),
+        sector: z.string(),
+        headline: z.string(),
+        summary: z.string(),
+        label: SentimentLabel,
+        note: z.string(),
+      }),
+    )
+    .length(30),
+});
+export type HeadlineLabels = z.infer<typeof HeadlineLabels>;
+
+export const HEADLINE_LABELS_PATH = "data/testset/headline-labels.json";
+
+export function loadHeadlineLabels(path = HEADLINE_LABELS_PATH): HeadlineLabels {
+  return HeadlineLabels.parse(JSON.parse(readFileSync(path, "utf8")));
+}
 
 export const TestCase = z.object({
   id: z.string().regex(/^(con|bal|agg)-\d{2}$/),

@@ -6,7 +6,8 @@
  *   pnpm testset:verify
  */
 import { snapshotFundamentalsSource } from "../src/data/fundamentals.ts";
-import { checkCase, checkTestSetShape, loadTestSet } from "../src/eval/testset.ts";
+import { newsPath, readNewsSnapshot } from "../src/data/news.ts";
+import { checkCase, checkTestSetShape, loadHeadlineLabels, loadTestSet } from "../src/eval/testset.ts";
 
 const set = loadTestSet();
 const src = snapshotFundamentalsSource({ date: set.fundamentalsSnapshot });
@@ -22,6 +23,15 @@ for (const c of set.cases) {
     `${r.id}  ${r.profile.padEnd(12)} ${String(r.holdings).padStart(2)}  ${r.weightedBeta.toFixed(3)}  ${r.betaGap.toFixed(3)}  ${String(r.expectedMismatch).padEnd(8)}  ${c.variance ? "yes" : "   "}  ${r.topSector} ${(r.topSectorWeight * 100).toFixed(0)}%`,
   );
 }
+
+// Headline labels: every label set, every newsId present in the news snapshot it names.
+const labels = loadHeadlineLabels();
+const news = readNewsSnapshot(newsPath(labels.newsSnapshot));
+const newsIds = new Set(news.items.map((i) => i.newsId));
+const missing = labels.items.filter((i) => !newsIds.has(i.newsId)).map((i) => i.newsId);
+if (missing.length) problems.push(`headline labels not in news snapshot ${labels.newsSnapshot}: ${missing.join(", ")}`);
+const counts = Object.entries(Object.groupBy(labels.items, (i) => i.label)).map(([l, xs]) => `${l} ${xs!.length}`);
+console.log(`\nheadline labels: ${labels.items.length} (${counts.join(", ")})`);
 
 if (problems.length) {
   console.error(`\n${problems.length} problem(s):\n  ${problems.join("\n  ")}`);

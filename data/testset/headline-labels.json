@@ -8,8 +8,8 @@
       "sector": "Communication Services",
       "headline": "Xfinity Price Increase Could Be A Game Changer For Comcast (CMCSA)",
       "summary": "Comcast recently confirmed that Xfinity customers will face price increases from December 2026 as the business seeks to cover higher costs and continue funding its network and service investments while contending with pressure in broadband and cable TV. The move highlights how Comcast is leaning more on pricing power and fee structures at a time when fixed wireless and fiber rivals are actively targeting its broadband and video base. The next focus is how Comcast's investment narrative holds...",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Mixed: price hikes support revenue, but they are driven by higher costs and broadband/video pressure, and they raise churn risk against fiber and fixed-wireless rivals."
     },
     {
       "newsId": "AMZN-144128888",
@@ -17,8 +17,8 @@
       "sector": "Consumer Discretionary",
       "headline": "Musk's Plan To Put 1 Million AI Satellites In Orbit Gets US Approval. Amazon Questions Whether It Can Be Done.",
       "summary": "SpaceX believes solar-powered satellites could eventually reduce the enormous energy demands of terrestrial AI infrastructure.",
-      "label": null,
-      "note": ""
+      "label": "negative",
+      "note": "Ambiguous: Amazon is only the skeptic here, but regulatory approval for a SpaceX competitor in space and AI infrastructure is mildly unfavorable for Amazon."
     },
     {
       "newsId": "COST-144124512",
@@ -26,8 +26,8 @@
       "sector": "Consumer Staples",
       "headline": "Global Retail Pharmacy Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on AI and Automation as Walmart, Amazon, CVS Health, and Costco Scale Digital Care",
       "summary": "Boost ROI with AI, IoT, cloud and robotic dispensing to automate fulfillment, optimize inventory, reduce errors and labor costs, scale operations, and expand digital patient services.Dublin, Nov. 25, 2026 (GLOBE NEWSWIRE) -- \"Retail Pharmacy Market Global Report 2026\" has been added to ResearchAndMarkets.com's offering. The global retail pharmacy market is experiencing rapid expansion, supported by rising prescription drug demand, a growing prevalence of chronic diseases and increased access to",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Generic market-research press release; Costco is only listed among the players."
     },
     {
       "newsId": "COP-144102545",
@@ -35,8 +35,8 @@
       "sector": "Energy",
       "headline": "Oil Market Midweek Wrap: Brent Holds Near $90 Despite Iran Tensions – OPEC Meeting, ConocoPhillips Sale In Focus",
       "summary": "While oil prices have retreated from their recent highs, concerns remain about the ongoing conflict with Iran.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Brent near $90 is supportive for a producer, but prices are retreating, and the nature and direction of the 'ConocoPhillips sale' isn't specified."
     },
     {
       "newsId": "AXP-144023024",
@@ -44,8 +44,8 @@
       "sector": "Financials",
       "headline": "JPMorgan, American Express and Travelers Are Raising Dividends for Retirees",
       "summary": "Three Dow financials pay yields under 2%, yet retirees keep piling in. Their secret is a payout that eats barely a quarter of earnings, and one of them has already survived a brutal cut that should give income seekers pause.",
-      "label": null,
-      "note": ""
+      "label": "positive",
+      "note": "Dividend increase and low payout ratio. The summary doesn't say which of the three had a past cut."
     },
     {
       "newsId": "ABBV-144122499",
@@ -53,8 +53,8 @@
       "sector": "Health Care",
       "headline": "What Could Still Lift AbbVie Stock?",
       "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Speculative opinion headline; the summary is unrelated to AbbVie."
     },
     {
       "newsId": "BA-144125931",
@@ -62,8 +62,8 @@
       "sector": "Industrials",
       "headline": "Boeing Lands 50-Jet Chinese Order As Trump Threatens To Double Proposed Tariffs On Beijing",
       "summary": "Xiamen Airlines announced plans to purchase 50 Boeing 737-8 aircraft for about $7.4 billion as the United States and China continue to negotiate over tariffs and trade.",
-      "label": null,
-      "note": ""
+      "label": "positive",
+      "note": "$7.4B order is clearly positive; US-China tariff escalation is a background risk."
     },
     {
       "newsId": "AAPL-144126902",
@@ -71,8 +71,8 @@
       "sector": "Information Technology",
       "headline": "How Qualcomm’s CMO is reshaping his team for its post-Apple era",
       "summary": "After losing a key partnership with Apple, U.S. chipmaker Qualcomm is shifting its focus to data centers and laptops. Its CMO, Don McGuire, is reshaping the company's marketing strategy to support the transition.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "The story is about Qualcomm; Apple appears only as the departed customer, with no direct impact stated."
     },
     {
       "newsId": "LIN-143872157",
@@ -80,8 +80,8 @@
       "sector": "Materials",
       "headline": "Linde: An Exceptional Business With Too Little Room For Error",
       "summary": "Linde (LIN) deserves a premium for sticky contracts and dense regional infrastructure, but its current price leaves insufficient near-term upside.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Praises business quality but calls the valuation stretched, so it leans cautious on the stock."
     },
     {
       "newsId": "AMT-144093158",
@@ -89,8 +89,8 @@
       "sector": "Real Estate",
       "headline": "Better Dividend Stock for Retirees: American Tower vs. UDR",
       "summary": "Key TakeawaysAmerican Tower yields 4. 1% and UDR yields 5.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Comparison piece; the truncated summary gives no verdict."
     },
     {
       "newsId": "DUK-144127110",
@@ -98,8 +98,8 @@
       "sector": "Utilities",
       "headline": "Duke Energy gears up for Thanksgiving week storms, urges Carolinas customers to prepare for potential outages",
       "summary": "Duke Energy is preparing to respond to potential damage and power outages in the Carolinas caused by high winds and rain.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Routine storm preparedness. Damage could add restoration costs, but those are typically recoverable and nothing has happened yet."
     },
     {
       "newsId": "DIS-144037301",
@@ -107,8 +107,8 @@
       "sector": "Communication Services",
       "headline": "NFLX Vs DIS: Which Streaming Stock Is A Favorite Among Analysts?",
       "summary": "Phillip Securities downgraded Disney’s stock over the weekend, while Morningstar released a fresh take on Netflix, maintaining its $80 price target.",
-      "label": null,
-      "note": ""
+      "label": "negative",
+      "note": "Analyst downgrade of Disney."
     },
     {
       "newsId": "BKNG-144117381",
@@ -116,8 +116,8 @@
       "sector": "Consumer Discretionary",
       "headline": "Booking Holdings (NASDAQ:BKNG): Affordable Growth at a Reasonable Valuation",
       "summary": "Booking Holdings (BKNG) pairs affordable growth with low valuation, solid profitability, and healthy balance-sheet fundamentals despite slowing growth.",
-      "label": null,
-      "note": ""
+      "label": "positive",
+      "note": "Favorable valuation and fundamentals; slowing growth noted."
     },
     {
       "newsId": "KO-144124618",
@@ -125,8 +125,8 @@
       "sector": "Consumer Staples",
       "headline": "Coca-Cola (KO) Just Reclaimed the 20-Day Moving Average",
       "summary": "Good things could be on the horizon when a stock surpasses the 20-day simple moving average. How should investors react?",
-      "label": null,
-      "note": ""
+      "label": "positive",
+      "note": "Mildly positive technical signal only."
     },
     {
       "newsId": "CVX-144128094",
@@ -134,8 +134,8 @@
       "sector": "Energy",
       "headline": "Chevron Cut Its Debt by $8.4 Billion. These 4 Dividend Stocks Have Fortress Balance Sheets",
       "summary": "When the next recession hits, only some dividends survive the squeeze. Four companies from four different sectors passed a strict balance sheet test, but one of them carries a red flag that makes retirees look twice.",
-      "label": null,
-      "note": ""
+      "label": "positive",
+      "note": "Debt reduction and a fortress balance sheet. The summary doesn't say which of the four has the 'red flag'."
     },
     {
       "newsId": "BAC-144124560",
@@ -143,7 +143,7 @@
       "sector": "Financials",
       "headline": "Bank Bond Losses Hit $486 Billion: How Exposed Is Bank of America?",
       "summary": "BAC faces mounting balance-sheet pressure as U.S. banks' unrealized securities losses hit $486 billion, threatening margin growth and flexibility.",
-      "label": null,
+      "label": "negative",
       "note": ""
     },
     {
@@ -152,8 +152,8 @@
       "sector": "Health Care",
       "headline": "Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy for 2027?",
       "summary": "Abbott's diversified model and Intuitive Surgical's robotic dominance pull in very different directions, and their valuation gap is wider than you might expect.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Comparison piece with no verdict in the summary."
     },
     {
       "newsId": "CAT-144086901",
@@ -161,8 +161,8 @@
       "sector": "Industrials",
       "headline": "Can Caterpillar Stock Jump 50%?",
       "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Speculative question headline with an upside lean; the summary is unrelated to Caterpillar."
     },
     {
       "newsId": "ACN-144082968",
@@ -170,8 +170,8 @@
       "sector": "Information Technology",
       "headline": "Accenture vs. Palo Alto Networks: Which Tech Stock Is a Better Buy for 2027?",
       "summary": "Palo Alto trades at 84.8 times forward earnings while Accenture sits at 14.9 times, a gap that makes this choice harder than it looks.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Comparison piece. Accenture's lower multiple could be read as cheap or as weak growth expectations."
     },
     {
       "newsId": "NEE-144122570",
@@ -179,8 +179,8 @@
       "sector": "Utilities",
       "headline": "NextEra Energy (NEE) Stock Looks Fairly Valued On Merger Probe Closure",
       "summary": "NextEra Energy has delivered a 57.7% share price return over the past three years, helped by a growing renewables footprint and a steady utility base. That puts fresh focus on whether the current price still lines up with what its dividend stream can justify. With investors weighing merger headlines and a large capital spending program, the question now is how much of that future income is already reflected in the stock at around US$84.58. A 57.7% return over three years means anyone buying...",
-      "label": null,
-      "note": ""
+      "label": "positive",
+      "note": "Closing the merger probe removes an overhang (positive), but the valuation take itself is neutral ('fairly valued')."
     },
     {
       "newsId": "GOOGL-144126925",
@@ -188,8 +188,8 @@
       "sector": "Communication Services",
       "headline": "Why Alphabet Stock Is Down Today",
       "summary": "It's never cost more to insure Alphabet's debt.",
-      "label": null,
-      "note": ""
+      "label": "negative",
+      "note": "Stock down; credit default swap costs at a record high."
     },
     {
       "newsId": "GM-144087101",
@@ -197,8 +197,8 @@
       "sector": "Consumer Discretionary",
       "headline": "GM, Ford in Pentagon Talks to Build Military Drones",
       "summary": "The U.S. military is exploring partnerships with automakers to expand domestic defense manufacturing capacity.",
-      "label": null,
-      "note": ""
+      "label": "positive",
+      "note": "Potential new defense revenue, but these are talks only, with no deal yet."
     },
     {
       "newsId": "MDLZ-143398991",
@@ -206,8 +206,8 @@
       "sector": "Consumer Staples",
       "headline": "International Markets and Mondelez (MDLZ): A Deep Dive for Investors",
       "summary": "Explore Mondelez's (MDLZ) international revenue trends and how these numbers impact Wall Street's forecasts and what's ahead for the stock.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Informational analysis with no directional signal."
     },
     {
       "newsId": "XOM-144128096",
@@ -215,8 +215,8 @@
       "sector": "Energy",
       "headline": "ExxonMobil (XOM) Stock Looks Cheap Against Future Cash Flow Estimates",
       "summary": "ExxonMobil Holdings has posted a powerful 5 year share gain, which makes the recent pullback a natural moment to ask whether the current price can still be explained by the cash flows the business is expected to generate. With the stock now trading at US$158.23 after a weaker month, the key issue is how that market value lines up against what a Discounted Cash Flow (DCF) view of its future money generation suggests. ExxonMobil is up 212.9% over 5 years, which puts a lot of weight on the idea...",
-      "label": null,
-      "note": ""
+      "label": "positive",
+      "note": "Undervaluation view; it also mentions a recent pullback."
     },
     {
       "newsId": "BLK-144114130",
@@ -224,8 +224,8 @@
       "sector": "Financials",
       "headline": "Market Chatter: BlackRock, IFM Mull Cutting Bid for Stack Infrastructure's APAC Data Centers",
       "summary": "BlackRock (BLK) and IFM Investors, along with a consortium, are weighing a reduction in their offer",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Unconfirmed chatter. As the buyer, BlackRock might pay less, though the deal could also stall. No clear impact either way."
     },
     {
       "newsId": "AMGN-144124657",
@@ -233,8 +233,8 @@
       "sector": "Health Care",
       "headline": "Amgen (AMGN) Crossed Above the 20-Day Moving Average: What That Means for Investors",
       "summary": "Should investors be excited or worried when a stock crosses above the 20-day simple moving average?",
-      "label": null,
-      "note": ""
+      "label": "positive",
+      "note": "Mildly positive technical signal only."
     },
     {
       "newsId": "DE-144122591",
@@ -242,8 +242,8 @@
       "sector": "Industrials",
       "headline": "DE Stock Falls After Q4 Earnings Miss, CEO Sees Farm Recovery But Warns Of Uncertainty",
       "summary": "CEO John May pointed to early signs of improvement in large agriculture, led by North America, but said continued uncertainty in key end markets means the FY2027 outlook reflects a wider range of outcomes.",
-      "label": null,
-      "note": ""
+      "label": "negative",
+      "note": "Earnings miss and stock drop; the early farm-recovery signs only partly offset this."
     },
     {
       "newsId": "ADBE-144111533",
@@ -251,8 +251,8 @@
       "sector": "Information Technology",
       "headline": "Adobe Stock Is About 67% Below Its 2021 Record. Here's What I Think It Will Be Worth in 2030.",
       "summary": "Even if the software giant's profit growth keeps cooling, a falling share count could do a lot of the work.",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Mixed: a steep drawdown and cooling profit growth versus a constructive buyback-driven long-term view."
     },
     {
       "newsId": "SO-144124778",
@@ -260,8 +260,8 @@
       "sector": "Utilities",
       "headline": "Raised Outlook Might Change The Case For Investing In Southern Stock (SO)",
       "summary": "Southern Company has completed a US$1.75b composite equity units offering, issuing 35,000,000 equity derivative units at US$50 each with a US$0.75 discount per security and a US$875m principal amount allocated twice within the structure. The mix of equity linked funding and derivative units adds another lever for Southern Company to support its large capital program while managing balance sheet pressure from rising data center and corporate electricity demand. We will now look at how...",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "Mixed: the headline cites a raised outlook, but the summary is about an equity-linked offering (potential dilution) to fund capex under balance-sheet pressure."
     },
     {
       "newsId": "META-144126951",
@@ -269,8 +269,8 @@
       "sector": "Communication Services",
       "headline": "CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says",
       "summary": "Investing.com -- CoreWeave Inc’s (NASDAQ:CRWV) underwriting banks are preparing to launch a $4.5 billion debt sale as early as next week, leveraging the cloud provider’s artificial intelligence infrastructure contract with Meta Platforms Inc (NASDAQ:META) to secure investment-grade terms. According to Bloomberg, bankers at Morgan Stanley and Mitsubishi UFJ Financial Group Inc. are structuring the transaction, which will be backed by graphics processing units destined for a Meta-dedicated data ce",
-      "label": null,
-      "note": ""
+      "label": "neutral",
+      "note": "The story is about CoreWeave's financing. Meta's contract is the collateral, which implies strong credit, but there's no direct impact on Meta."
     }
   ]
 }
