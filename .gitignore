@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Eval runs: per-case outputs and step logs stay local; summaries are committed.
+runs/*
+!runs/**/summary.json
+!runs/**/summary.md
+
+# Raw downloads are re-fetchable; chunks, embeddings and snapshots are committed.
+data/filings/raw/
+data/cache/
+
+.DS_Store
+*.log
