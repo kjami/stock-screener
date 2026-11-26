@@ -29,7 +29,13 @@ export type FundamentalsRow = z.infer<typeof FundamentalsRow>;
 export const FundamentalsSnapshot = z.object({
   asOf: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   provider: z.string().min(1),
+  /** Which provider field feeds each row field, so the mapping is auditable. */
+  fieldMap: z.record(z.string(), z.string()),
   rows: z.array(FundamentalsRow).min(1),
+  /** Universe members left out because a field was missing, with the reason. */
+  dropped: z.array(z.object({ ticker: Ticker, reason: z.string() })),
+  /** Values replaced by a documented data-quality rule (original kept for audit). */
+  overrides: z.array(z.object({ ticker: Ticker, field: z.string(), original: z.number(), used: z.number(), reason: z.string() })),
 });
 export type FundamentalsSnapshot = z.infer<typeof FundamentalsSnapshot>;
 
@@ -58,7 +64,11 @@ export type NewsItem = z.infer<typeof NewsItem>;
 export const NewsSnapshot = z.object({
   asOf: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   provider: z.string().min(1),
+  /** Query window, inclusive. */
+  window: z.object({ from: z.string(), to: z.string() }),
   items: z.array(NewsItem),
+  /** Tickers whose fetch failed (they simply have no items). */
+  failed: z.array(z.object({ ticker: Ticker, reason: z.string() })),
 });
 export type NewsSnapshot = z.infer<typeof NewsSnapshot>;
 

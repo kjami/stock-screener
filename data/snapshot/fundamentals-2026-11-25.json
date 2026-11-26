@@ -1,0 +1,947 @@
+{
+  "asOf": "2026-11-25",
+  "provider": "finnhub",
+  "fieldMap": {
+    "beta": "metric.beta",
+    "dividendYieldPct": "metric.dividendYieldIndicatedAnnual (missing → 0, no dividend)",
+    "revenueGrowthPct": "metric.revenueGrowthTTMYoy (Financials > 50% → metric.revenueGrowth3Y, see overrides)",
+    "freeCashFlowUsd": "profile.marketCapitalization × 1e6 / metric.pfcfShareTTM",
+    "sector": "universe (GICS)"
+  },
+  "rows": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Information Technology",
+      "beta": 1.056546,
+      "dividendYieldPct": 0.50534,
+      "revenueGrowthPct": 15.06,
+      "freeCashFlowUsd": 139657441167
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie",
+      "sector": "Health Care",
+      "beta": 0.13323483,
+      "dividendYieldPct": 4.47105,
+      "revenueGrowthPct": 10.68,
+      "freeCashFlowUsd": 18507451287
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
+      "sector": "Health Care",
+      "beta": 0.49846676,
+      "dividendYieldPct": 1.98309,
+      "revenueGrowthPct": 10,
+      "freeCashFlowUsd": 6776450922
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "beta": 1.022491,
+      "dividendYieldPct": 1.54473,
+      "revenueGrowthPct": 6.47,
+      "freeCashFlowUsd": 12029245840
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "beta": 1.4490745,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 12.03,
+      "freeCashFlowUsd": 10626246181
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "beta": 1.716864,
+      "dividendYieldPct": 0.8514,
+      "revenueGrowthPct": 21.43,
+      "freeCashFlowUsd": 5955248521
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "beta": 2.6283653,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 41.87,
+      "freeCashFlowUsd": 7077264856
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "sector": "Health Care",
+      "beta": 0.4121538,
+      "dividendYieldPct": 3.20952,
+      "revenueGrowthPct": 8.15,
+      "freeCashFlowUsd": 10067281603
+    },
+    {
+      "ticker": "AMT",
+      "name": "American Tower",
+      "sector": "Real Estate",
+      "beta": 0.82177544,
+      "dividendYieldPct": 3.25105,
+      "revenueGrowthPct": 5.31,
+      "freeCashFlowUsd": 3968445441
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "sector": "Consumer Discretionary",
+      "beta": 1.4880133,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 15.35,
+      "freeCashFlowUsd": 15209902496
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "beta": 1.565506,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 40.74,
+      "freeCashFlowUsd": 4881369786
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "sector": "Information Technology",
+      "beta": 1.4869617,
+      "dividendYieldPct": 1.87972,
+      "revenueGrowthPct": 48.69,
+      "freeCashFlowUsd": 41059108043
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "sector": "Financials",
+      "beta": 1.0800099,
+      "dividendYieldPct": 1.45968,
+      "revenueGrowthPct": 8.99,
+      "freeCashFlowUsd": 14290647710
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "sector": "Industrials",
+      "beta": 1.3420037,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 17.53,
+      "freeCashFlowUsd": 1428159121
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "sector": "Financials",
+      "beta": 1.209633,
+      "dividendYieldPct": 3.22906,
+      "revenueGrowthPct": 0.61805,
+      "freeCashFlowUsd": 120147847176
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings",
+      "sector": "Consumer Discretionary",
+      "beta": 1.1189326,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 11.47,
+      "freeCashFlowUsd": 9275480850
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock",
+      "sector": "Financials",
+      "beta": 1.3779176,
+      "dividendYieldPct": 2.73935,
+      "revenueGrowthPct": 24.72,
+      "freeCashFlowUsd": 5848642990
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol Myers Squibb",
+      "sector": "Health Care",
+      "beta": 0.1427633,
+      "dividendYieldPct": 4.58199,
+      "revenueGrowthPct": 4.16,
+      "freeCashFlowUsd": 9286773512
+    },
+    {
+      "ticker": "BRK.B",
+      "name": "Berkshire Hathaway (Class B)",
+      "sector": "Financials",
+      "beta": 0.22483294,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 3.93,
+      "freeCashFlowUsd": 24220567715
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "sector": "Financials",
+      "beta": 1.1982394,
+      "dividendYieldPct": 4.68715,
+      "revenueGrowthPct": -0.9243,
+      "freeCashFlowUsd": 47189836688
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "beta": 1.6659374,
+      "dividendYieldPct": 2.1022,
+      "revenueGrowthPct": 20.26,
+      "freeCashFlowUsd": 10037496186
+    },
+    {
+      "ticker": "CMCSA",
+      "name": "Comcast",
+      "sector": "Communication Services",
+      "beta": 0.6573265,
+      "dividendYieldPct": 2.72428,
+      "revenueGrowthPct": -0.25,
+      "freeCashFlowUsd": 17189831297
+    },
+    {
+      "ticker": "COF",
+      "name": "Capital One",
+      "sector": "Financials",
+      "beta": 1.1392326,
+      "dividendYieldPct": 2.25204,
+      "revenueGrowthPct": 38.19094,
+      "freeCashFlowUsd": 27072328804
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "sector": "Energy",
+      "beta": 0.24264449,
+      "dividendYieldPct": 3.99169,
+      "revenueGrowthPct": 13.32,
+      "freeCashFlowUsd": 11145397059
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "sector": "Consumer Staples",
+      "beta": 0.80365294,
+      "dividendYieldPct": 0.68994,
+      "revenueGrowthPct": 10.14,
+      "freeCashFlowUsd": 9339889141
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "sector": "Information Technology",
+      "beta": 1.3304696,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 11.23,
+      "freeCashFlowUsd": 15463692657
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "sector": "Information Technology",
+      "beta": 0.991431,
+      "dividendYieldPct": 3.22581,
+      "revenueGrowthPct": 16.05,
+      "freeCashFlowUsd": 13732994216
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health",
+      "sector": "Health Care",
+      "beta": 0.5735743,
+      "dividendYieldPct": 3.48603,
+      "revenueGrowthPct": 6.73,
+      "freeCashFlowUsd": 15638447722
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "sector": "Energy",
+      "beta": 0.5170667,
+      "dividendYieldPct": 4.16839,
+      "revenueGrowthPct": 20.75,
+      "freeCashFlowUsd": 35743410021
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "sector": "Industrials",
+      "beta": 0.9200787,
+      "dividendYieldPct": 1.45871,
+      "revenueGrowthPct": 7.99,
+      "freeCashFlowUsd": 5020501267
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "beta": 1.6009897,
+      "dividendYieldPct": 1.98898,
+      "revenueGrowthPct": 72.09,
+      "freeCashFlowUsd": 11698784588
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher Corporation",
+      "sector": "Health Care",
+      "beta": 0.7725552,
+      "dividendYieldPct": 0.48778,
+      "revenueGrowthPct": 5.52,
+      "freeCashFlowUsd": 5776663681
+    },
+    {
+      "ticker": "DIS",
+      "name": "Walt Disney Company (The)",
+      "sector": "Communication Services",
+      "beta": 1.3510373,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 8.39,
+      "freeCashFlowUsd": 13230251583
+    },
+    {
+      "ticker": "DUK",
+      "name": "Duke Energy",
+      "sector": "Utilities",
+      "beta": 0.2717982,
+      "dividendYieldPct": 4.5184,
+      "revenueGrowthPct": 6.8,
+      "freeCashFlowUsd": 470351932
+    },
+    {
+      "ticker": "EMR",
+      "name": "Emerson Electric",
+      "sector": "Industrials",
+      "beta": 1.2040774,
+      "dividendYieldPct": 2.37261,
+      "revenueGrowthPct": 5.37,
+      "freeCashFlowUsd": 3540625806
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "sector": "Industrials",
+      "beta": 1.2496622,
+      "dividendYieldPct": 1.95645,
+      "revenueGrowthPct": -10.09,
+      "freeCashFlowUsd": 5494322952
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "sector": "Industrials",
+      "beta": 0.30224574,
+      "dividendYieldPct": 2.13049,
+      "revenueGrowthPct": 9.73,
+      "freeCashFlowUsd": 5910062091
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "sector": "Industrials",
+      "beta": 1.4194235,
+      "dividendYieldPct": 0.26673,
+      "revenueGrowthPct": 19.63,
+      "freeCashFlowUsd": 7990532246
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "sector": "Industrials",
+      "beta": 1.3074303,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 16.91,
+      "freeCashFlowUsd": 16978808930
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences",
+      "sector": "Health Care",
+      "beta": 0.35186517,
+      "dividendYieldPct": 3.97984,
+      "revenueGrowthPct": 6.54,
+      "freeCashFlowUsd": 13737838717
+    },
+    {
+      "ticker": "GM",
+      "name": "General Motors",
+      "sector": "Consumer Discretionary",
+      "beta": 1.4443505,
+      "dividendYieldPct": 1.2775,
+      "revenueGrowthPct": -0.26,
+      "freeCashFlowUsd": 3552646423
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
+      "beta": 1.2205695,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 22.21,
+      "freeCashFlowUsd": 65043460573
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "sector": "Financials",
+      "beta": 1.3295536,
+      "dividendYieldPct": 3.2434,
+      "revenueGrowthPct": 10.5,
+      "freeCashFlowUsd": 9201671668
+    },
+    {
+      "ticker": "HD",
+      "name": "Home Depot",
+      "sector": "Consumer Discretionary",
+      "beta": 0.88512737,
+      "dividendYieldPct": 2.6907,
+      "revenueGrowthPct": 3.03,
+      "freeCashFlowUsd": 15429304581
+    },
+    {
+      "ticker": "IBM",
+      "name": "IBM",
+      "sector": "Information Technology",
+      "beta": 0.76743877,
+      "dividendYieldPct": 4.2789,
+      "revenueGrowthPct": 6.83,
+      "freeCashFlowUsd": 14258537369
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "beta": 2.4635825,
+      "dividendYieldPct": 1.1374,
+      "revenueGrowthPct": 12.08,
+      "freeCashFlowUsd": 6862022569
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "beta": 0.99798316,
+      "dividendYieldPct": 0.63822,
+      "revenueGrowthPct": 12.78,
+      "freeCashFlowUsd": 8756886212
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "sector": "Health Care",
+      "beta": 1.3919996,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 20.45,
+      "freeCashFlowUsd": 3537707931
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "sector": "Health Care",
+      "beta": 0.1687909,
+      "dividendYieldPct": 3.12131,
+      "revenueGrowthPct": 7.8,
+      "freeCashFlowUsd": 20451498339
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "sector": "Financials",
+      "beta": 1.0563986,
+      "dividendYieldPct": 2.73544,
+      "revenueGrowthPct": 3.36295,
+      "freeCashFlowUsd": 155604892511
+    },
+    {
+      "ticker": "KO",
+      "name": "Coca-Cola Company (The)",
+      "sector": "Consumer Staples",
+      "beta": 0.22495827,
+      "dividendYieldPct": 3.14154,
+      "revenueGrowthPct": 7.11,
+      "freeCashFlowUsd": 14277594146
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "sector": "Materials",
+      "beta": 0.6512652,
+      "dividendYieldPct": 1.23123,
+      "revenueGrowthPct": 8.16,
+      "freeCashFlowUsd": 5080004070
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly and Company",
+      "sector": "Health Care",
+      "beta": 0.37928373,
+      "dividendYieldPct": 0.75195,
+      "revenueGrowthPct": 45.51,
+      "freeCashFlowUsd": 11561563429
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Industrials",
+      "beta": 0.11858104,
+      "dividendYieldPct": 2.78755,
+      "revenueGrowthPct": 7.86,
+      "freeCashFlowUsd": 8730714266
+    },
+    {
+      "ticker": "LOW",
+      "name": "Lowe's",
+      "sector": "Consumer Discretionary",
+      "beta": 0.74564105,
+      "dividendYieldPct": 2.21028,
+      "revenueGrowthPct": 9.64,
+      "freeCashFlowUsd": 8149436007
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "beta": 2.0670674,
+      "dividendYieldPct": 1.11498,
+      "revenueGrowthPct": 33.36,
+      "freeCashFlowUsd": 6165771180
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard",
+      "sector": "Financials",
+      "beta": 0.72980136,
+      "dividendYieldPct": 0.55273,
+      "revenueGrowthPct": 15.3,
+      "freeCashFlowUsd": 15728615410
+    },
+    {
+      "ticker": "MCD",
+      "name": "McDonald's",
+      "sector": "Consumer Discretionary",
+      "beta": 0.36104742,
+      "dividendYieldPct": 2.36427,
+      "revenueGrowthPct": 5.78,
+      "freeCashFlowUsd": 7838427824
+    },
+    {
+      "ticker": "MDLZ",
+      "name": "Mondelēz International",
+      "sector": "Consumer Staples",
+      "beta": 0.31033725,
+      "dividendYieldPct": 2.37364,
+      "revenueGrowthPct": 5.98,
+      "freeCashFlowUsd": 3701668199
+    },
+    {
+      "ticker": "MDT",
+      "name": "Medtronic",
+      "sector": "Health Care",
+      "beta": 0.5510021,
+      "dividendYieldPct": 3.495,
+      "revenueGrowthPct": 9.77,
+      "freeCashFlowUsd": 6128531630
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "beta": 1.2810221,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 27.53,
+      "freeCashFlowUsd": 42370360149
+    },
+    {
+      "ticker": "MMM",
+      "name": "3M",
+      "sector": "Industrials",
+      "beta": 0.9334199,
+      "dividendYieldPct": 6.25326,
+      "revenueGrowthPct": 1.7,
+      "freeCashFlowUsd": 2789324237
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria",
+      "sector": "Consumer Staples",
+      "beta": 0.47137305,
+      "dividendYieldPct": 9.45262,
+      "revenueGrowthPct": 0.47,
+      "freeCashFlowUsd": 9081712707
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Co.",
+      "sector": "Health Care",
+      "beta": 0.14537345,
+      "dividendYieldPct": 2.8664,
+      "revenueGrowthPct": 4.89,
+      "freeCashFlowUsd": 14612653400
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "sector": "Financials",
+      "beta": 1.2528657,
+      "dividendYieldPct": 4.32295,
+      "revenueGrowthPct": 12.03,
+      "freeCashFlowUsd": 22596614422
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "sector": "Information Technology",
+      "beta": 1.0631732,
+      "dividendYieldPct": 0.79485,
+      "revenueGrowthPct": 17.91,
+      "freeCashFlowUsd": 59207736807
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "beta": 2.521324,
+      "dividendYieldPct": 0.59841,
+      "revenueGrowthPct": 256.33,
+      "freeCashFlowUsd": 63023975426
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "sector": "Utilities",
+      "beta": 0.5718995,
+      "dividendYieldPct": 3.24935,
+      "revenueGrowthPct": 9.61,
+      "freeCashFlowUsd": 4675020787
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "sector": "Communication Services",
+      "beta": 1.6413542,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 14.65,
+      "freeCashFlowUsd": 11758032468
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "beta": 1.0403317,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 21.82,
+      "freeCashFlowUsd": 4771747130
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "beta": 2.4107063,
+      "dividendYieldPct": 0.03349,
+      "revenueGrowthPct": 93.33,
+      "freeCashFlowUsd": 142903728670
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "beta": 1.8504899,
+      "dividendYieldPct": 1.37634,
+      "revenueGrowthPct": 21.62,
+      "freeCashFlowUsd": 8042876752
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "beta": 0.99853224,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 30.29,
+      "freeCashFlowUsd": 4306085139
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo",
+      "sector": "Consumer Staples",
+      "beta": 0.27940768,
+      "dividendYieldPct": 2.98754,
+      "revenueGrowthPct": 6.36,
+      "freeCashFlowUsd": 10774813352
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "sector": "Health Care",
+      "beta": 0.2904581,
+      "dividendYieldPct": 5.37705,
+      "revenueGrowthPct": 1.33,
+      "freeCashFlowUsd": 11853609096
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble",
+      "sector": "Consumer Staples",
+      "beta": 0.29196164,
+      "dividendYieldPct": 2.48567,
+      "revenueGrowthPct": 3.52,
+      "freeCashFlowUsd": 15323623659
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "beta": 1.7439936,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 87.06,
+      "freeCashFlowUsd": 4052220813
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris International",
+      "sector": "Consumer Staples",
+      "beta": 0.39601776,
+      "dividendYieldPct": 5.51198,
+      "revenueGrowthPct": 7.87,
+      "freeCashFlowUsd": 14312044932
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "beta": 1.7465197,
+      "dividendYieldPct": 2.50489,
+      "revenueGrowthPct": -2.63,
+      "freeCashFlowUsd": 9307131337
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "sector": "Industrials",
+      "beta": 0.2928695,
+      "dividendYieldPct": 2.95074,
+      "revenueGrowthPct": 11.63,
+      "freeCashFlowUsd": 9161547822
+    },
+    {
+      "ticker": "SBUX",
+      "name": "Starbucks",
+      "sector": "Consumer Discretionary",
+      "beta": 0.9774392,
+      "dividendYieldPct": 2.21833,
+      "revenueGrowthPct": 4.49,
+      "freeCashFlowUsd": 3814885949
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab Corporation",
+      "sector": "Financials",
+      "beta": 0.7002521,
+      "dividendYieldPct": 1.77211,
+      "revenueGrowthPct": 12.3,
+      "freeCashFlowUsd": 11835416633
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "beta": 3.6802554,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 272.38,
+      "freeCashFlowUsd": 16398166380
+    },
+    {
+      "ticker": "SO",
+      "name": "Southern Company",
+      "sector": "Utilities",
+      "beta": 0.2513133,
+      "dividendYieldPct": 4.02241,
+      "revenueGrowthPct": 8.23,
+      "freeCashFlowUsd": 38883349
+    },
+    {
+      "ticker": "T",
+      "name": "AT&T",
+      "sector": "Communication Services",
+      "beta": 0.2304452,
+      "dividendYieldPct": 6.84762,
+      "revenueGrowthPct": 3.51,
+      "freeCashFlowUsd": 18083911094
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "sector": "Health Care",
+      "beta": 0.8238392,
+      "dividendYieldPct": 0.28526,
+      "revenueGrowthPct": 8.27,
+      "freeCashFlowUsd": 7749688385
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US",
+      "sector": "Communication Services",
+      "beta": 0.34277722,
+      "dividendYieldPct": 1.7452,
+      "revenueGrowthPct": 9.28,
+      "freeCashFlowUsd": 17620450671
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "beta": 1.757652,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 8.3,
+      "freeCashFlowUsd": 4329586296
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "sector": "Information Technology",
+      "beta": 1.4600811,
+      "dividendYieldPct": 3.38564,
+      "revenueGrowthPct": 20.27,
+      "freeCashFlowUsd": 8705506026
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber",
+      "sector": "Industrials",
+      "beta": 1.2808493,
+      "dividendYieldPct": 0,
+      "revenueGrowthPct": 13.94,
+      "freeCashFlowUsd": 10565266675
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group",
+      "sector": "Health Care",
+      "beta": 0.55172753,
+      "dividendYieldPct": 1.37452,
+      "revenueGrowthPct": 3.33,
+      "freeCashFlowUsd": 27994894214
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "sector": "Industrials",
+      "beta": 0.84355396,
+      "dividendYieldPct": 2.31853,
+      "revenueGrowthPct": 7.4,
+      "freeCashFlowUsd": 7027515711
+    },
+    {
+      "ticker": "UPS",
+      "name": "United Parcel Service",
+      "sector": "Industrials",
+      "beta": 0.89932233,
+      "dividendYieldPct": 4.26232,
+      "revenueGrowthPct": 2.11,
+      "freeCashFlowUsd": 6348328217
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "sector": "Financials",
+      "beta": 1.034283,
+      "dividendYieldPct": 5.16129,
+      "revenueGrowthPct": 0.85206,
+      "freeCashFlowUsd": 13215257961
+    },
+    {
+      "ticker": "V",
+      "name": "Visa Inc.",
+      "sector": "Financials",
+      "beta": 0.754955,
+      "dividendYieldPct": 0.81793,
+      "revenueGrowthPct": 14.76,
+      "freeCashFlowUsd": 22012269494
+    },
+    {
+      "ticker": "VZ",
+      "name": "Verizon",
+      "sector": "Communication Services",
+      "beta": 0.2289606,
+      "dividendYieldPct": 7.1104,
+      "revenueGrowthPct": 1.38,
+      "freeCashFlowUsd": 17002602834
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo",
+      "sector": "Financials",
+      "beta": 0.9417898,
+      "dividendYieldPct": 2.2733013387218994,
+      "revenueGrowthPct": -6.52947,
+      "freeCashFlowUsd": 30376538821
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart",
+      "sector": "Consumer Staples",
+      "beta": 0.4894824,
+      "dividendYieldPct": 0.7596102202102354,
+      "revenueGrowthPct": 5.99,
+      "freeCashFlowUsd": 13980314219
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil",
+      "sector": "Energy",
+      "beta": 0.23416695,
+      "dividendYieldPct": 2.521882842627165,
+      "revenueGrowthPct": 19.48,
+      "freeCashFlowUsd": 50308768220
+    }
+  ],
+  "dropped": [
+    {
+      "ticker": "BNY",
+      "reason": "missing revenueGrowthTTMYoy"
+    }
+  ],
+  "overrides": [
+    {
+      "ticker": "BAC",
+      "field": "revenueGrowthPct",
+      "original": 99.36713,
+      "used": 0.61805,
+      "reason": "Financials TTM revenue growth > 50% (revenue-definition artifact); used revenueGrowth3Y"
+    },
+    {
+      "ticker": "C",
+      "field": "revenueGrowthPct",
+      "original": 99.23775,
+      "used": -0.9243,
+      "reason": "Financials TTM revenue growth > 50% (revenue-definition artifact); used revenueGrowth3Y"
+    },
+    {
+      "ticker": "JPM",
+      "field": "revenueGrowthPct",
+      "original": 108.9793,
+      "used": 3.36295,
+      "reason": "Financials TTM revenue growth > 50% (revenue-definition artifact); used revenueGrowth3Y"
+    },
+    {
+      "ticker": "USB",
+      "field": "revenueGrowthPct",
+      "original": 84.11849,
+      "used": 0.85206,
+      "reason": "Financials TTM revenue growth > 50% (revenue-definition artifact); used revenueGrowth3Y"
+    },
+    {
+      "ticker": "WFC",
+      "field": "revenueGrowthPct",
+      "original": 72.74767,
+      "used": -6.52947,
+      "reason": "Financials TTM revenue growth > 50% (revenue-definition artifact); used revenueGrowth3Y"
+    }
+  ]
+}

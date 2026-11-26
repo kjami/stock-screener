@@ -1,0 +1,1279 @@
+{
+  "fundamentalsSnapshot": "2026-11-25",
+  "cases": [
+    {
+      "id": "con-01",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "JNJ",
+            "weight": 0.15
+          },
+          {
+            "ticker": "PG",
+            "weight": 0.15
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.15
+          },
+          {
+            "ticker": "VZ",
+            "weight": 0.1
+          },
+          {
+            "ticker": "DUK",
+            "weight": 0.1
+          },
+          {
+            "ticker": "SO",
+            "weight": 0.1
+          },
+          {
+            "ticker": "PEP",
+            "weight": 0.1
+          },
+          {
+            "ticker": "XOM",
+            "weight": 0.15
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": true,
+      "intent": "classic dividend payers across staples, telecom, utilities, energy"
+    },
+    {
+      "id": "con-02",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "JNJ",
+            "weight": 0.2
+          },
+          {
+            "ticker": "MRK",
+            "weight": 0.15
+          },
+          {
+            "ticker": "ABBV",
+            "weight": 0.15
+          },
+          {
+            "ticker": "PFE",
+            "weight": 0.1
+          },
+          {
+            "ticker": "AMGN",
+            "weight": 0.1
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.1
+          },
+          {
+            "ticker": "T",
+            "weight": 0.1
+          },
+          {
+            "ticker": "LMT",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "health care concentration (~70%): fit check on sector cap"
+    },
+    {
+      "id": "con-03",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "MSFT",
+            "weight": 0.15
+          },
+          {
+            "ticker": "AAPL",
+            "weight": 0.1
+          },
+          {
+            "ticker": "JNJ",
+            "weight": 0.15
+          },
+          {
+            "ticker": "PG",
+            "weight": 0.15
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.1
+          },
+          {
+            "ticker": "XOM",
+            "weight": 0.1
+          },
+          {
+            "ticker": "NEE",
+            "weight": 0.1
+          },
+          {
+            "ticker": "UNH",
+            "weight": 0.15
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": true,
+      "intent": "some mega-cap tech, still inside the band"
+    },
+    {
+      "id": "con-04",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "BRK.B",
+            "weight": 0.3
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.2
+          },
+          {
+            "ticker": "PG",
+            "weight": 0.2
+          },
+          {
+            "ticker": "JNJ",
+            "weight": 0.15
+          },
+          {
+            "ticker": "VZ",
+            "weight": 0.15
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "small 5-holding portfolio; picks must avoid already-held KO, PG, JNJ"
+    },
+    {
+      "id": "con-05",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "JNJ",
+            "weight": 0.07
+          },
+          {
+            "ticker": "PG",
+            "weight": 0.07
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.07
+          },
+          {
+            "ticker": "PEP",
+            "weight": 0.07
+          },
+          {
+            "ticker": "MCD",
+            "weight": 0.07
+          },
+          {
+            "ticker": "VZ",
+            "weight": 0.07
+          },
+          {
+            "ticker": "T",
+            "weight": 0.07
+          },
+          {
+            "ticker": "DUK",
+            "weight": 0.07
+          },
+          {
+            "ticker": "SO",
+            "weight": 0.07
+          },
+          {
+            "ticker": "NEE",
+            "weight": 0.07
+          },
+          {
+            "ticker": "XOM",
+            "weight": 0.06
+          },
+          {
+            "ticker": "CVX",
+            "weight": 0.06
+          },
+          {
+            "ticker": "LMT",
+            "weight": 0.06
+          },
+          {
+            "ticker": "MO",
+            "weight": 0.06
+          },
+          {
+            "ticker": "PM",
+            "weight": 0.06
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "maximum 15 holdings, broad defensive spread"
+    },
+    {
+      "id": "con-06",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "WMT",
+            "weight": 0.1
+          },
+          {
+            "ticker": "COST",
+            "weight": 0.15
+          },
+          {
+            "ticker": "HD",
+            "weight": 0.15
+          },
+          {
+            "ticker": "UNP",
+            "weight": 0.15
+          },
+          {
+            "ticker": "UPS",
+            "weight": 0.15
+          },
+          {
+            "ticker": "IBM",
+            "weight": 0.15
+          },
+          {
+            "ticker": "LOW",
+            "weight": 0.15
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "near the band edge (beta ~0.8): retail and transport"
+    },
+    {
+      "id": "con-07",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "NVDA",
+            "weight": 0.2
+          },
+          {
+            "ticker": "MSFT",
+            "weight": 0.15
+          },
+          {
+            "ticker": "AAPL",
+            "weight": 0.15
+          },
+          {
+            "ticker": "AVGO",
+            "weight": 0.1
+          },
+          {
+            "ticker": "AMD",
+            "weight": 0.1
+          },
+          {
+            "ticker": "GOOGL",
+            "weight": 0.1
+          },
+          {
+            "ticker": "META",
+            "weight": 0.1
+          },
+          {
+            "ticker": "JNJ",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": true,
+      "intent": "mismatch: tech-heavy growth portfolio"
+    },
+    {
+      "id": "con-08",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "JPM",
+            "weight": 0.2
+          },
+          {
+            "ticker": "GS",
+            "weight": 0.15
+          },
+          {
+            "ticker": "MS",
+            "weight": 0.15
+          },
+          {
+            "ticker": "BAC",
+            "weight": 0.15
+          },
+          {
+            "ticker": "BLK",
+            "weight": 0.15
+          },
+          {
+            "ticker": "C",
+            "weight": 0.1
+          },
+          {
+            "ticker": "AXP",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": false,
+      "intent": "mismatch: concentrated in banks and brokers"
+    },
+    {
+      "id": "con-09",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "AMZN",
+            "weight": 0.2
+          },
+          {
+            "ticker": "TSLA",
+            "weight": 0.1
+          },
+          {
+            "ticker": "HD",
+            "weight": 0.1
+          },
+          {
+            "ticker": "CAT",
+            "weight": 0.15
+          },
+          {
+            "ticker": "GE",
+            "weight": 0.15
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.1
+          },
+          {
+            "ticker": "PG",
+            "weight": 0.1
+          },
+          {
+            "ticker": "JNJ",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": true,
+      "intent": "mismatch: moderate, growth mixed with a few defensives"
+    },
+    {
+      "id": "con-10",
+      "input": {
+        "profile": "conservative",
+        "holdings": [
+          {
+            "ticker": "CAT",
+            "weight": 0.2
+          },
+          {
+            "ticker": "GE",
+            "weight": 0.2
+          },
+          {
+            "ticker": "BA",
+            "weight": 0.15
+          },
+          {
+            "ticker": "UBER",
+            "weight": 0.15
+          },
+          {
+            "ticker": "FDX",
+            "weight": 0.1
+          },
+          {
+            "ticker": "DE",
+            "weight": 0.1
+          },
+          {
+            "ticker": "UNP",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": false,
+      "intent": "mismatch: cyclical industrials"
+    },
+    {
+      "id": "bal-01",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "AAPL",
+            "weight": 0.15
+          },
+          {
+            "ticker": "MSFT",
+            "weight": 0.15
+          },
+          {
+            "ticker": "JPM",
+            "weight": 0.1
+          },
+          {
+            "ticker": "JNJ",
+            "weight": 0.05
+          },
+          {
+            "ticker": "V",
+            "weight": 0.1
+          },
+          {
+            "ticker": "HD",
+            "weight": 0.1
+          },
+          {
+            "ticker": "CAT",
+            "weight": 0.15
+          },
+          {
+            "ticker": "XOM",
+            "weight": 0.1
+          },
+          {
+            "ticker": "GOOGL",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "diversified large caps across nine sectors"
+    },
+    {
+      "id": "bal-02",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "MSFT",
+            "weight": 0.2
+          },
+          {
+            "ticker": "AAPL",
+            "weight": 0.2
+          },
+          {
+            "ticker": "CSCO",
+            "weight": 0.1
+          },
+          {
+            "ticker": "ACN",
+            "weight": 0.1
+          },
+          {
+            "ticker": "INTU",
+            "weight": 0.1
+          },
+          {
+            "ticker": "JPM",
+            "weight": 0.1
+          },
+          {
+            "ticker": "UNP",
+            "weight": 0.1
+          },
+          {
+            "ticker": "HD",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": true,
+      "intent": "tech tilt (~70%) with balanced beta: fit check on sector cap"
+    },
+    {
+      "id": "bal-03",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "JPM",
+            "weight": 0.15
+          },
+          {
+            "ticker": "AXP",
+            "weight": 0.15
+          },
+          {
+            "ticker": "V",
+            "weight": 0.1
+          },
+          {
+            "ticker": "MA",
+            "weight": 0.1
+          },
+          {
+            "ticker": "WFC",
+            "weight": 0.1
+          },
+          {
+            "ticker": "USB",
+            "weight": 0.1
+          },
+          {
+            "ticker": "COST",
+            "weight": 0.1
+          },
+          {
+            "ticker": "UNP",
+            "weight": 0.1
+          },
+          {
+            "ticker": "SBUX",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "financials tilt (~70%)"
+    },
+    {
+      "id": "bal-04",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "AAPL",
+            "weight": 0.07
+          },
+          {
+            "ticker": "MSFT",
+            "weight": 0.07
+          },
+          {
+            "ticker": "JPM",
+            "weight": 0.07
+          },
+          {
+            "ticker": "V",
+            "weight": 0.07
+          },
+          {
+            "ticker": "HD",
+            "weight": 0.07
+          },
+          {
+            "ticker": "COST",
+            "weight": 0.07
+          },
+          {
+            "ticker": "UNP",
+            "weight": 0.07
+          },
+          {
+            "ticker": "CSCO",
+            "weight": 0.07
+          },
+          {
+            "ticker": "ACN",
+            "weight": 0.07
+          },
+          {
+            "ticker": "TMO",
+            "weight": 0.07
+          },
+          {
+            "ticker": "DHR",
+            "weight": 0.06
+          },
+          {
+            "ticker": "LOW",
+            "weight": 0.06
+          },
+          {
+            "ticker": "AXP",
+            "weight": 0.06
+          },
+          {
+            "ticker": "NOW",
+            "weight": 0.06
+          },
+          {
+            "ticker": "SBUX",
+            "weight": 0.06
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "maximum 15 holdings, market-like mix"
+    },
+    {
+      "id": "bal-05",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "GOOGL",
+            "weight": 0.2
+          },
+          {
+            "ticker": "AMZN",
+            "weight": 0.15
+          },
+          {
+            "ticker": "JNJ",
+            "weight": 0.2
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.15
+          },
+          {
+            "ticker": "CAT",
+            "weight": 0.15
+          },
+          {
+            "ticker": "JPM",
+            "weight": 0.15
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "6 holdings mixing growth and defensives"
+    },
+    {
+      "id": "bal-06",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "NVDA",
+            "weight": 0.2
+          },
+          {
+            "ticker": "AMD",
+            "weight": 0.15
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.2
+          },
+          {
+            "ticker": "PG",
+            "weight": 0.15
+          },
+          {
+            "ticker": "JNJ",
+            "weight": 0.15
+          },
+          {
+            "ticker": "VZ",
+            "weight": 0.15
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "barbell: semis plus defensives, average inside the band"
+    },
+    {
+      "id": "bal-07",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "JNJ",
+            "weight": 0.2
+          },
+          {
+            "ticker": "PG",
+            "weight": 0.2
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.2
+          },
+          {
+            "ticker": "DUK",
+            "weight": 0.2
+          },
+          {
+            "ticker": "VZ",
+            "weight": 0.2
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": true,
+      "intent": "mismatch (too low): all defensive"
+    },
+    {
+      "id": "bal-08",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "ABBV",
+            "weight": 0.15
+          },
+          {
+            "ticker": "MRK",
+            "weight": 0.15
+          },
+          {
+            "ticker": "PFE",
+            "weight": 0.1
+          },
+          {
+            "ticker": "PEP",
+            "weight": 0.15
+          },
+          {
+            "ticker": "MDLZ",
+            "weight": 0.15
+          },
+          {
+            "ticker": "SO",
+            "weight": 0.1
+          },
+          {
+            "ticker": "T",
+            "weight": 0.1
+          },
+          {
+            "ticker": "LMT",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": false,
+      "intent": "mismatch (too low): pharma and staples"
+    },
+    {
+      "id": "bal-09",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "NVDA",
+            "weight": 0.2
+          },
+          {
+            "ticker": "AMD",
+            "weight": 0.2
+          },
+          {
+            "ticker": "MU",
+            "weight": 0.15
+          },
+          {
+            "ticker": "LRCX",
+            "weight": 0.15
+          },
+          {
+            "ticker": "AVGO",
+            "weight": 0.15
+          },
+          {
+            "ticker": "AMAT",
+            "weight": 0.15
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": true,
+      "intent": "mismatch (too high): semiconductors only"
+    },
+    {
+      "id": "bal-10",
+      "input": {
+        "profile": "balanced",
+        "holdings": [
+          {
+            "ticker": "GS",
+            "weight": 0.2
+          },
+          {
+            "ticker": "MS",
+            "weight": 0.15
+          },
+          {
+            "ticker": "CAT",
+            "weight": 0.15
+          },
+          {
+            "ticker": "TSLA",
+            "weight": 0.1
+          },
+          {
+            "ticker": "META",
+            "weight": 0.15
+          },
+          {
+            "ticker": "NFLX",
+            "weight": 0.1
+          },
+          {
+            "ticker": "GE",
+            "weight": 0.15
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": false,
+      "intent": "mismatch (too high): brokers, media and cyclicals"
+    },
+    {
+      "id": "agg-01",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "NVDA",
+            "weight": 0.2
+          },
+          {
+            "ticker": "AMD",
+            "weight": 0.15
+          },
+          {
+            "ticker": "TSLA",
+            "weight": 0.15
+          },
+          {
+            "ticker": "PLTR",
+            "weight": 0.15
+          },
+          {
+            "ticker": "META",
+            "weight": 0.1
+          },
+          {
+            "ticker": "AMZN",
+            "weight": 0.15
+          },
+          {
+            "ticker": "NFLX",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": true,
+      "intent": "high-growth tech and consumer"
+    },
+    {
+      "id": "agg-02",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "NVDA",
+            "weight": 0.25
+          },
+          {
+            "ticker": "AVGO",
+            "weight": 0.2
+          },
+          {
+            "ticker": "AMD",
+            "weight": 0.15
+          },
+          {
+            "ticker": "MU",
+            "weight": 0.15
+          },
+          {
+            "ticker": "LRCX",
+            "weight": 0.15
+          },
+          {
+            "ticker": "QCOM",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "semiconductor concentration (100% IT): fit check"
+    },
+    {
+      "id": "agg-03",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "AMZN",
+            "weight": 0.15
+          },
+          {
+            "ticker": "GOOGL",
+            "weight": 0.15
+          },
+          {
+            "ticker": "META",
+            "weight": 0.1
+          },
+          {
+            "ticker": "NFLX",
+            "weight": 0.1
+          },
+          {
+            "ticker": "GE",
+            "weight": 0.1
+          },
+          {
+            "ticker": "CAT",
+            "weight": 0.1
+          },
+          {
+            "ticker": "GS",
+            "weight": 0.1
+          },
+          {
+            "ticker": "ISRG",
+            "weight": 0.1
+          },
+          {
+            "ticker": "UBER",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "diversified growth across six sectors"
+    },
+    {
+      "id": "agg-04",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "NVDA",
+            "weight": 0.07
+          },
+          {
+            "ticker": "AMD",
+            "weight": 0.07
+          },
+          {
+            "ticker": "AVGO",
+            "weight": 0.07
+          },
+          {
+            "ticker": "TSLA",
+            "weight": 0.07
+          },
+          {
+            "ticker": "AMZN",
+            "weight": 0.07
+          },
+          {
+            "ticker": "META",
+            "weight": 0.07
+          },
+          {
+            "ticker": "NFLX",
+            "weight": 0.07
+          },
+          {
+            "ticker": "PLTR",
+            "weight": 0.07
+          },
+          {
+            "ticker": "ORCL",
+            "weight": 0.07
+          },
+          {
+            "ticker": "CRM",
+            "weight": 0.07
+          },
+          {
+            "ticker": "GS",
+            "weight": 0.06
+          },
+          {
+            "ticker": "MS",
+            "weight": 0.06
+          },
+          {
+            "ticker": "CAT",
+            "weight": 0.06
+          },
+          {
+            "ticker": "GE",
+            "weight": 0.06
+          },
+          {
+            "ticker": "UBER",
+            "weight": 0.06
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "maximum 15 holdings, growth-heavy"
+    },
+    {
+      "id": "agg-05",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "AAPL",
+            "weight": 0.2
+          },
+          {
+            "ticker": "MSFT",
+            "weight": 0.2
+          },
+          {
+            "ticker": "GS",
+            "weight": 0.2
+          },
+          {
+            "ticker": "BAC",
+            "weight": 0.2
+          },
+          {
+            "ticker": "CAT",
+            "weight": 0.2
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "5 large caps just above the band"
+    },
+    {
+      "id": "agg-06",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "CAT",
+            "weight": 0.2
+          },
+          {
+            "ticker": "GE",
+            "weight": 0.15
+          },
+          {
+            "ticker": "BA",
+            "weight": 0.15
+          },
+          {
+            "ticker": "GEV",
+            "weight": 0.1
+          },
+          {
+            "ticker": "GS",
+            "weight": 0.15
+          },
+          {
+            "ticker": "MS",
+            "weight": 0.15
+          },
+          {
+            "ticker": "BLK",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": false,
+      "variance": false,
+      "intent": "industrials and capital markets"
+    },
+    {
+      "id": "agg-07",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "JNJ",
+            "weight": 0.2
+          },
+          {
+            "ticker": "PG",
+            "weight": 0.15
+          },
+          {
+            "ticker": "KO",
+            "weight": 0.15
+          },
+          {
+            "ticker": "PEP",
+            "weight": 0.15
+          },
+          {
+            "ticker": "DUK",
+            "weight": 0.15
+          },
+          {
+            "ticker": "VZ",
+            "weight": 0.2
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": true,
+      "intent": "mismatch: all defensive dividend payers"
+    },
+    {
+      "id": "agg-08",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "AAPL",
+            "weight": 0.15
+          },
+          {
+            "ticker": "MSFT",
+            "weight": 0.15
+          },
+          {
+            "ticker": "JPM",
+            "weight": 0.1
+          },
+          {
+            "ticker": "V",
+            "weight": 0.1
+          },
+          {
+            "ticker": "MA",
+            "weight": 0.1
+          },
+          {
+            "ticker": "HD",
+            "weight": 0.1
+          },
+          {
+            "ticker": "UNP",
+            "weight": 0.1
+          },
+          {
+            "ticker": "COST",
+            "weight": 0.1
+          },
+          {
+            "ticker": "JNJ",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": false,
+      "intent": "mismatch: blue-chip core, beta below the band"
+    },
+    {
+      "id": "agg-09",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "LLY",
+            "weight": 0.25
+          },
+          {
+            "ticker": "XOM",
+            "weight": 0.2
+          },
+          {
+            "ticker": "ABBV",
+            "weight": 0.15
+          },
+          {
+            "ticker": "WMT",
+            "weight": 0.2
+          },
+          {
+            "ticker": "MA",
+            "weight": 0.2
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": true,
+      "intent": "mismatch edge: stocks pass the per-stock rule via growth, but weighted beta is low"
+    },
+    {
+      "id": "agg-10",
+      "input": {
+        "profile": "aggressive",
+        "holdings": [
+          {
+            "ticker": "XOM",
+            "weight": 0.2
+          },
+          {
+            "ticker": "CVX",
+            "weight": 0.2
+          },
+          {
+            "ticker": "COP",
+            "weight": 0.15
+          },
+          {
+            "ticker": "NEE",
+            "weight": 0.15
+          },
+          {
+            "ticker": "SO",
+            "weight": 0.1
+          },
+          {
+            "ticker": "NVDA",
+            "weight": 0.1
+          },
+          {
+            "ticker": "TSLA",
+            "weight": 0.1
+          }
+        ]
+      },
+      "mismatch": true,
+      "variance": false,
+      "intent": "mismatch: energy and utilities with a small growth sleeve"
+    }
+  ]
+}

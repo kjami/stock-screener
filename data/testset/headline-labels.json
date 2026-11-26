@@ -1,0 +1,276 @@
+{
+  "newsSnapshot": "2026-11-25",
+  "instructions": "Set each label to \"positive\", \"neutral\" or \"negative\": is this headline good, neutral or bad news for THIS company (ticker)? Judge from the headline and summary only. Use note for anything ambiguous. Commit before any system runs.",
+  "items": [
+    {
+      "newsId": "CMCSA-144128199",
+      "ticker": "CMCSA",
+      "sector": "Communication Services",
+      "headline": "Xfinity Price Increase Could Be A Game Changer For Comcast (CMCSA)",
+      "summary": "Comcast recently confirmed that Xfinity customers will face price increases from December 2026 as the business seeks to cover higher costs and continue funding its network and service investments while contending with pressure in broadband and cable TV. The move highlights how Comcast is leaning more on pricing power and fee structures at a time when fixed wireless and fiber rivals are actively targeting its broadband and video base. The next focus is how Comcast's investment narrative holds...",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "AMZN-144128888",
+      "ticker": "AMZN",
+      "sector": "Consumer Discretionary",
+      "headline": "Musk's Plan To Put 1 Million AI Satellites In Orbit Gets US Approval. Amazon Questions Whether It Can Be Done.",
+      "summary": "SpaceX believes solar-powered satellites could eventually reduce the enormous energy demands of terrestrial AI infrastructure.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "COST-144124512",
+      "ticker": "COST",
+      "sector": "Consumer Staples",
+      "headline": "Global Retail Pharmacy Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on AI and Automation as Walmart, Amazon, CVS Health, and Costco Scale Digital Care",
+      "summary": "Boost ROI with AI, IoT, cloud and robotic dispensing to automate fulfillment, optimize inventory, reduce errors and labor costs, scale operations, and expand digital patient services.Dublin, Nov. 25, 2026 (GLOBE NEWSWIRE) -- \"Retail Pharmacy Market Global Report 2026\" has been added to ResearchAndMarkets.com's offering. The global retail pharmacy market is experiencing rapid expansion, supported by rising prescription drug demand, a growing prevalence of chronic diseases and increased access to",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "COP-144102545",
+      "ticker": "COP",
+      "sector": "Energy",
+      "headline": "Oil Market Midweek Wrap: Brent Holds Near $90 Despite Iran Tensions – OPEC Meeting, ConocoPhillips Sale In Focus",
+      "summary": "While oil prices have retreated from their recent highs, concerns remain about the ongoing conflict with Iran.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "AXP-144023024",
+      "ticker": "AXP",
+      "sector": "Financials",
+      "headline": "JPMorgan, American Express and Travelers Are Raising Dividends for Retirees",
+      "summary": "Three Dow financials pay yields under 2%, yet retirees keep piling in. Their secret is a payout that eats barely a quarter of earnings, and one of them has already survived a brutal cut that should give income seekers pause.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "ABBV-144122499",
+      "ticker": "ABBV",
+      "sector": "Health Care",
+      "headline": "What Could Still Lift AbbVie Stock?",
+      "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "BA-144125931",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "headline": "Boeing Lands 50-Jet Chinese Order As Trump Threatens To Double Proposed Tariffs On Beijing",
+      "summary": "Xiamen Airlines announced plans to purchase 50 Boeing 737-8 aircraft for about $7.4 billion as the United States and China continue to negotiate over tariffs and trade.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "AAPL-144126902",
+      "ticker": "AAPL",
+      "sector": "Information Technology",
+      "headline": "How Qualcomm’s CMO is reshaping his team for its post-Apple era",
+      "summary": "After losing a key partnership with Apple, U.S. chipmaker Qualcomm is shifting its focus to data centers and laptops. Its CMO, Don McGuire, is reshaping the company's marketing strategy to support the transition.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "LIN-143872157",
+      "ticker": "LIN",
+      "sector": "Materials",
+      "headline": "Linde: An Exceptional Business With Too Little Room For Error",
+      "summary": "Linde (LIN) deserves a premium for sticky contracts and dense regional infrastructure, but its current price leaves insufficient near-term upside.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "AMT-144093158",
+      "ticker": "AMT",
+      "sector": "Real Estate",
+      "headline": "Better Dividend Stock for Retirees: American Tower vs. UDR",
+      "summary": "Key TakeawaysAmerican Tower yields 4. 1% and UDR yields 5.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "DUK-144127110",
+      "ticker": "DUK",
+      "sector": "Utilities",
+      "headline": "Duke Energy gears up for Thanksgiving week storms, urges Carolinas customers to prepare for potential outages",
+      "summary": "Duke Energy is preparing to respond to potential damage and power outages in the Carolinas caused by high winds and rain.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "DIS-144037301",
+      "ticker": "DIS",
+      "sector": "Communication Services",
+      "headline": "NFLX Vs DIS: Which Streaming Stock Is A Favorite Among Analysts?",
+      "summary": "Phillip Securities downgraded Disney’s stock over the weekend, while Morningstar released a fresh take on Netflix, maintaining its $80 price target.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "BKNG-144117381",
+      "ticker": "BKNG",
+      "sector": "Consumer Discretionary",
+      "headline": "Booking Holdings (NASDAQ:BKNG): Affordable Growth at a Reasonable Valuation",
+      "summary": "Booking Holdings (BKNG) pairs affordable growth with low valuation, solid profitability, and healthy balance-sheet fundamentals despite slowing growth.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "KO-144124618",
+      "ticker": "KO",
+      "sector": "Consumer Staples",
+      "headline": "Coca-Cola (KO) Just Reclaimed the 20-Day Moving Average",
+      "summary": "Good things could be on the horizon when a stock surpasses the 20-day simple moving average. How should investors react?",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "CVX-144128094",
+      "ticker": "CVX",
+      "sector": "Energy",
+      "headline": "Chevron Cut Its Debt by $8.4 Billion. These 4 Dividend Stocks Have Fortress Balance Sheets",
+      "summary": "When the next recession hits, only some dividends survive the squeeze. Four companies from four different sectors passed a strict balance sheet test, but one of them carries a red flag that makes retirees look twice.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "BAC-144124560",
+      "ticker": "BAC",
+      "sector": "Financials",
+      "headline": "Bank Bond Losses Hit $486 Billion: How Exposed Is Bank of America?",
+      "summary": "BAC faces mounting balance-sheet pressure as U.S. banks' unrealized securities losses hit $486 billion, threatening margin growth and flexibility.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "ABT-144088097",
+      "ticker": "ABT",
+      "sector": "Health Care",
+      "headline": "Abbott Laboratories vs. Intuitive Surgical: Which Healthcare Stock Is a Better Buy for 2027?",
+      "summary": "Abbott's diversified model and Intuitive Surgical's robotic dominance pull in very different directions, and their valuation gap is wider than you might expect.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "CAT-144086901",
+      "ticker": "CAT",
+      "sector": "Industrials",
+      "headline": "Can Caterpillar Stock Jump 50%?",
+      "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "ACN-144082968",
+      "ticker": "ACN",
+      "sector": "Information Technology",
+      "headline": "Accenture vs. Palo Alto Networks: Which Tech Stock Is a Better Buy for 2027?",
+      "summary": "Palo Alto trades at 84.8 times forward earnings while Accenture sits at 14.9 times, a gap that makes this choice harder than it looks.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "NEE-144122570",
+      "ticker": "NEE",
+      "sector": "Utilities",
+      "headline": "NextEra Energy (NEE) Stock Looks Fairly Valued On Merger Probe Closure",
+      "summary": "NextEra Energy has delivered a 57.7% share price return over the past three years, helped by a growing renewables footprint and a steady utility base. That puts fresh focus on whether the current price still lines up with what its dividend stream can justify. With investors weighing merger headlines and a large capital spending program, the question now is how much of that future income is already reflected in the stock at around US$84.58. A 57.7% return over three years means anyone buying...",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "GOOGL-144126925",
+      "ticker": "GOOGL",
+      "sector": "Communication Services",
+      "headline": "Why Alphabet Stock Is Down Today",
+      "summary": "It's never cost more to insure Alphabet's debt.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "GM-144087101",
+      "ticker": "GM",
+      "sector": "Consumer Discretionary",
+      "headline": "GM, Ford in Pentagon Talks to Build Military Drones",
+      "summary": "The U.S. military is exploring partnerships with automakers to expand domestic defense manufacturing capacity.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "MDLZ-143398991",
+      "ticker": "MDLZ",
+      "sector": "Consumer Staples",
+      "headline": "International Markets and Mondelez (MDLZ): A Deep Dive for Investors",
+      "summary": "Explore Mondelez's (MDLZ) international revenue trends and how these numbers impact Wall Street's forecasts and what's ahead for the stock.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "XOM-144128096",
+      "ticker": "XOM",
+      "sector": "Energy",
+      "headline": "ExxonMobil (XOM) Stock Looks Cheap Against Future Cash Flow Estimates",
+      "summary": "ExxonMobil Holdings has posted a powerful 5 year share gain, which makes the recent pullback a natural moment to ask whether the current price can still be explained by the cash flows the business is expected to generate. With the stock now trading at US$158.23 after a weaker month, the key issue is how that market value lines up against what a Discounted Cash Flow (DCF) view of its future money generation suggests. ExxonMobil is up 212.9% over 5 years, which puts a lot of weight on the idea...",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "BLK-144114130",
+      "ticker": "BLK",
+      "sector": "Financials",
+      "headline": "Market Chatter: BlackRock, IFM Mull Cutting Bid for Stack Infrastructure's APAC Data Centers",
+      "summary": "BlackRock (BLK) and IFM Investors, along with a consortium, are weighing a reduction in their offer",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "AMGN-144124657",
+      "ticker": "AMGN",
+      "sector": "Health Care",
+      "headline": "Amgen (AMGN) Crossed Above the 20-Day Moving Average: What That Means for Investors",
+      "summary": "Should investors be excited or worried when a stock crosses above the 20-day simple moving average?",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "DE-144122591",
+      "ticker": "DE",
+      "sector": "Industrials",
+      "headline": "DE Stock Falls After Q4 Earnings Miss, CEO Sees Farm Recovery But Warns Of Uncertainty",
+      "summary": "CEO John May pointed to early signs of improvement in large agriculture, led by North America, but said continued uncertainty in key end markets means the FY2027 outlook reflects a wider range of outcomes.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "ADBE-144111533",
+      "ticker": "ADBE",
+      "sector": "Information Technology",
+      "headline": "Adobe Stock Is About 67% Below Its 2021 Record. Here's What I Think It Will Be Worth in 2030.",
+      "summary": "Even if the software giant's profit growth keeps cooling, a falling share count could do a lot of the work.",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "SO-144124778",
+      "ticker": "SO",
+      "sector": "Utilities",
+      "headline": "Raised Outlook Might Change The Case For Investing In Southern Stock (SO)",
+      "summary": "Southern Company has completed a US$1.75b composite equity units offering, issuing 35,000,000 equity derivative units at US$50 each with a US$0.75 discount per security and a US$875m principal amount allocated twice within the structure. The mix of equity linked funding and derivative units adds another lever for Southern Company to support its large capital program while managing balance sheet pressure from rising data center and corporate electricity demand. We will now look at how...",
+      "label": null,
+      "note": ""
+    },
+    {
+      "newsId": "META-144126951",
+      "ticker": "META",
+      "sector": "Communication Services",
+      "headline": "CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says",
+      "summary": "Investing.com -- CoreWeave Inc’s (NASDAQ:CRWV) underwriting banks are preparing to launch a $4.5 billion debt sale as early as next week, leveraging the cloud provider’s artificial intelligence infrastructure contract with Meta Platforms Inc (NASDAQ:META) to secure investment-grade terms. According to Bloomberg, bankers at Morgan Stanley and Mitsubishi UFJ Financial Group Inc. are structuring the transaction, which will be backed by graphics processing units destined for a Meta-dedicated data ce",
+      "label": null,
+      "note": ""
+    }
+  ]
+}

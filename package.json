@@ -11,7 +11,12 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "smoke": "tsx scripts/smoke.ts"
+    "smoke": "tsx scripts/smoke.ts",
+    "freeze:universe": "tsx scripts/freeze-universe.ts",
+    "snapshot": "tsx scripts/snapshot.ts",
+    "stats:profiles": "tsx scripts/profile-stats.ts",
+    "testset:headlines": "tsx scripts/pick-headlines.ts",
+    "testset:verify": "tsx scripts/verify-testset.ts"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^4.0.108",
