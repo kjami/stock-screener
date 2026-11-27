@@ -82,12 +82,26 @@ export function addPicks(holdings: Holding[], picks: string[], pickWeight = PICK
 export interface FitCheck {
   pass: boolean;
   alreadyHeld: string[];
-  /** Sectors above MAX_SECTOR_WEIGHT after adding the picks. */
-  overweightSectors: { sector: string; weight: number }[];
+  /** Picks not in the fundamentals snapshot (their sector is unknown). */
+  unknownPicks: string[];
+  /** Picks that add to a sector already above MAX_SECTOR_WEIGHT before the picks. */
+  picksIntoOverweight: { ticker: string; sector: string; weightBefore: number }[];
+  /** Sectors at or below MAX_SECTOR_WEIGHT before that end above it after the picks. */
+  newlyOverweight: { sector: string; before: number; after: number }[];
+  before: Exposure;
   after: Exposure;
 }
 
-/** Portfolio-fit rule: no pick already held, no sector above 40% after adding picks. */
+/**
+ * Portfolio-fit rule: the picks must not make concentration worse.
+ *   1. no pick is already held
+ *   2. no pick goes into a sector already above 40%
+ *   3. no sector at or below 40% before ends above 40% after
+ *
+ * A plain "no sector above 40% after" rule cannot be met when a portfolio
+ * starts above ~53% in one sector: five 5% picks only scale it to 75% of its
+ * weight (100% → 75%, 70% → 52.5%). This version is passable for every case.
+ */
 export function checkPortfolioFit(
   holdings: Holding[],
   picks: string[],
@@ -95,9 +109,20 @@ export function checkPortfolioFit(
 ): FitCheck {
   const held = new Set(holdings.map((h) => h.ticker));
   const alreadyHeld = picks.filter((p) => held.has(p));
+  const unknownPicks = picks.filter((p) => !lookup(p));
+  const before = computeExposure(holdings, lookup);
   const after = computeExposure(addPicks(holdings, picks), lookup);
-  const overweightSectors = Object.entries(after.sectorWeights)
-    .filter(([, w]) => w > MAX_SECTOR_WEIGHT)
-    .map(([sector, weight]) => ({ sector, weight }));
-  return { pass: alreadyHeld.length === 0 && overweightSectors.length === 0, alreadyHeld, overweightSectors, after };
+
+  const picksIntoOverweight = picks.flatMap((ticker) => {
+    const sector = lookup(ticker)?.sector;
+    const weightBefore = sector ? (before.sectorWeights[sector] ?? 0) : 0;
+    return sector && weightBefore > MAX_SECTOR_WEIGHT ? [{ ticker, sector, weightBefore }] : [];
+  });
+  const newlyOverweight = Object.entries(after.sectorWeights).flatMap(([sector, w]) => {
+    const b = before.sectorWeights[sector] ?? 0;
+    return b <= MAX_SECTOR_WEIGHT && w > MAX_SECTOR_WEIGHT ? [{ sector, before: b, after: w }] : [];
+  });
+
+  const pass = !alreadyHeld.length && !unknownPicks.length && !picksIntoOverweight.length && !newlyOverweight.length;
+  return { pass, alreadyHeld, unknownPicks, picksIntoOverweight, newlyOverweight, before, after };
 }

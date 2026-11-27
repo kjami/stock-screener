@@ -102,11 +102,29 @@ describe("addPicks", () => {
 describe("checkPortfolioFit", () => {
   const techHeavy = [{ ticker: "AAPL", weight: 0.5 }, { ticker: "MSFT", weight: 0.5 }];
 
-  it("fails when a sector stays above 40% after adding picks", () => {
+  it("passes a 100% tech portfolio when picks go elsewhere (it cannot drop below 40%, but does not get worse)", () => {
     const fit = checkPortfolioFit(techHeavy, ["JNJ", "KO"], lookup);
+    expect(fit.pass).toBe(true);
+    expect(fit.after.sectorWeights["Information Technology"]).toBeCloseTo(0.9);
+  });
+
+  it("fails a pick into a sector already above 40%", () => {
+    const fit = checkPortfolioFit([{ ticker: "AAPL", weight: 0.6 }, { ticker: "JNJ", weight: 0.4 }], ["MSFT"], lookup);
     expect(fit.pass).toBe(false);
-    expect(fit.overweightSectors[0]?.sector).toBe("Information Technology");
-    expect(fit.overweightSectors[0]?.weight).toBeCloseTo(0.9);
+    expect(fit.picksIntoOverweight).toEqual([{ ticker: "MSFT", sector: "Information Technology", weightBefore: 0.6 }]);
+  });
+
+  it("fails when picks push a sector from ≤ 40% to above it", () => {
+    // Health Care 40% before; two more health-care-like picks would push it over.
+    data.set("PFE", row("PFE", "Health Care", 0.3, 4, 1));
+    data.set("MRK", row("MRK", "Health Care", 0.2, 3, 2));
+    const fit = checkPortfolioFit([{ ticker: "JNJ", weight: 0.4 }, { ticker: "KO", weight: 0.3 }, { ticker: "AAPL", weight: 0.3 }], ["PFE", "MRK"], lookup);
+    expect(fit.newlyOverweight).toEqual([{ sector: "Health Care", before: 0.4, after: expect.closeTo(0.46, 5) }]);
+    expect(fit.pass).toBe(false);
+  });
+
+  it("fails an unknown pick", () => {
+    expect(checkPortfolioFit(techHeavy, ["ZZZ"], lookup).unknownPicks).toEqual(["ZZZ"]);
   });
 
   it("fails when a pick is already held", () => {
